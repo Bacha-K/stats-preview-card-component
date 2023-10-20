@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lexend+Deca:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0A0C1C;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 560px;
+    height: 446px;
+    background-color: #1B1937;
+}
+.header {
+    width: 403px;
+color: #FFF;
+font-family: 'Inter', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+margin-top: 71px;
+margin-left: 72px;
+
+}
+.purple {
+    color: #AB5CDB;
+}
+.paragrap {
+width: 374px;
+color: #FFF;
+font-family: 'Inter', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+margin-top: 25px;
+margin-left: 71.5px;
+}
+.info {
+color: #FFF;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: inline-block;
+}
+.num1 {
+    margin-left: 72px;
+    margin-top: 72px;
+}
+.num2 {
+    margin-left: 87px;
+}
+.num3 {
+    margin-left: 95px;
+}
+
+.footer {
+color: #FFF;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+text-transform: uppercase;
+display: flex;
+font-family: 'Lexend Deca', sans-serif;
+}
+.one {
+    margin-left: 71.5px;
+}
+.two {
+    margin-left: 64px;
+}
+.three {
+    margin-left: 61px;
+}
+.picture {
+   display: flex;
+    width: auto;
+    height: 446px;
+    justify-content: center;
+    filter: invert(18%) sepia(56%) saturate(2759%) hue-rotate(265deg) brightness(88%) contrast(90%);
+}
